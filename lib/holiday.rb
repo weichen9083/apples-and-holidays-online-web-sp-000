@@ -86,7 +86,7 @@ value.each do |day, supply|
   array.each {|word|new_array << word.capitalize!}
   day = new_array.join(" ")
   supply = supply.join(",")
-  puts "   #{day}: #{supply}"
+  puts "  #{day}: #{supply}"
 end 
 end 
 end
