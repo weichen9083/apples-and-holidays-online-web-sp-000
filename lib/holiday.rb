@@ -28,10 +28,10 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
   holiday_hash.each do |key , value| 
     if key == :winter 
         value.each do |attribute, what|
-          attribute.to_s << supply
+         what << supply
 
         end 
-                  binding.pry
+
     end 
   end 
 
